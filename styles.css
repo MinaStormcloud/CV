@@ -1,0 +1,44 @@
+h1 {
+    color: darkblue;
+  }
+  h2 {
+    color: darkblue;
+  }
+  h3 {
+    color: darkblue;
+  }
+
+  body {
+    background-color: darkblue;
+  }
+
+  img {
+    background: url(Kristallen.jpg) right bottom no-repeat, url(Kristallen.jpg) left top repeat;
+  }  
+
+  .flex-container {
+    display: flex;    
+  }
+
+  .left {
+    border: 1px;
+    border-style: solid;
+    border-color: aqua;
+    height: auto;
+    width: 30%;
+    margin: 0px;
+    background-color: beige;
+    /*border-radius: 50%;*/
+  }
+
+  .right {
+    border: 1px;
+    border-style: dotted;
+    border-color: pink;
+    height: auto;
+    width: 70%;
+    margin: 0px;
+    background-color: cadetblue;
+    /*border-radius: 50%;*/
+  }
+
